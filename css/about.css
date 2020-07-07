@@ -1,0 +1,849 @@
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+
+#hero {
+    height: 180px;
+    min-height: 180px !important;
+    background: url("/images/services-mobile.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dark {
+    z-index: 0;
+}
+
+.about-box {
+    background: #fff;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+    width: auto;
+    -webkit-transform: translateY(90px);
+        -ms-transform: translateY(90px);
+            transform: translateY(90px);
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    
+}
+
+.about-box h1 {
+    color: #404040;
+    position: relative;
+    z-index: 10000;
+    font-size: 2.250em;
+    font-weight: 500;
+    padding: 20px 30px;
+    width: auto;
+    text-align: center;
+}
+
+/*-- -------------------------- -->
+<---        ABOUT CARDS         -->
+<--- -------------------------- -*/
+
+.card-container {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+    padding: 50px 30px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    margin-bottom: 50px;
+}
+
+.card:first-child {
+    margin-top: 0px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card svg {
+    height: 50px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.25em
+
+    ;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 0.9375em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card button {
+    background: transparent;
+    color: var(--primary);
+    padding: 0;
+    font-size: 0.9375em;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.card button:before {
+    position: absolute;
+    content: url("/images/arrow.svg");
+    right: -20px;
+    top: 18px;
+}
+
+/*-- -------------------------- -->
+<---        ABOUT CONTENT       -->
+<--- -------------------------- -*/
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content-container img {
+    width: 100%;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-content p:first-child {
+    font-size: 0.875em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.about-content h2 {
+    font-size: 1.875em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid var(--primary);
+    padding-left: 20px;
+}
+
+.about-content ul {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.about-content ul li {
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 1.125em;
+    color: #222;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.about-content ul li:before {
+    content: url("/images/check.svg");
+    width: 50px !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+    position: absolute;
+    left: -50px;
+    top: -8px;
+}
+
+.about-content ul li:before svg {
+    width: 100px !important;
+}
+
+/*-- -------------------------- -->
+<---         ABOUT STRIP        -->
+<--- -------------------------- -*/
+
+#about-strip {
+    background: url("/images/about-strip.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.strip-content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.875em;
+    margin-bottom: 50px;
+}
+
+.strip-content button {
+    display: block;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+#about-strip svg {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+}
+
+/*-- -------------------------- -->
+<---           STATS            -->
+<--- -------------------------- -*/
+
+.stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.stat p {
+    font-size: 3.75em !important;
+    font-weight: 600;
+    color: #121212;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stat h2 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.stat svg {
+    width: 60px !important;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*-- -------------------------- -->
+<---          REVIEWS            -->
+<--- -------------------------- -*/
+
+#more-reviews {
+    padding-bottom: 0;
+}
+
+.sub-text {
+    font-size: 0.875em;
+    color: #999;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.review-text h2 {
+    font-size: 1.875em;
+    margin-bottom: 25px;
+}
+
+.last-p {
+    margin-bottom: 100px;
+}
+
+/* Large Iphones */
+@media screen and (min-width: 420px) and (max-width: 899px) {
+
+    .container {
+        max-width: 610px;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---           LANDING          -->
+    /*--- -------------------------- -*/
+
+    .about-box {
+        width: 500px;
+    }
+
+    .about-box h1 {
+        font-size: 2.250em;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .card {
+        width: 270px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .card:last-child {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---            STIRP           -->
+    /*--- -------------------------- -*/
+
+    .about-strip-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .strip-content button {
+        margin-bottom: 240px;
+    }
+
+    #about-strip svg {
+        width: 400px;
+    }
+
+}
+
+/* Ipad Pro */
+@media screen and (min-width: 900px) and (max-width: 1025px) {
+
+    .mobile-nav {
+        max-width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 200px;
+    }
+
+    .about-box {
+        width: 600px;
+        height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: translateY(140px);
+            -ms-transform: translateY(140px);
+                transform: translateY(140px);
+    }
+
+    .about-box h1 {
+        font-size:3.125em;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .card {
+        max-width: 400px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .card p {
+        height: 84px;
+    }
+
+    .card:last-child {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card:last-child p {
+        height: auto;
+        width: 400px;
+        margin: auto;
+    }
+
+    /*-- -------------------------- -->
+    <---        ABOUT CONTENT       -->
+    /*--- -------------------------- -*/
+
+    .about-content-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-content {
+        margin-top: 0;
+    }
+
+    #about-content img {
+        width: 360px;
+        margin-right: 50px;
+        height: 480px !important;
+    }
+
+    .about-content ul li:before {
+        -webkit-transform: translateY(-8px);
+            -ms-transform: translateY(-8px);
+                transform: translateY(-8px);
+    }
+
+    /*-- -------------------------- -->
+    <---         ABOUT STRIP        -->
+    /*--- -------------------------- -*/
+
+    #about-strip {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .about-strip-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .strip-content {
+        height: auto;
+    }
+
+    .strip-content h2 {
+        width: 420px;
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .strip-content button {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    #about-strip svg {
+        width: 600px;
+        height: auto !important;
+        right: 0px;
+        bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---             STAT           -->
+    /*--- ------------------------- -*/
+
+    .stats-container {
+        margin-top: 50px;
+        padding-bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .stat {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .stat .top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .stat .last-top {
+        width: 140px !important;
+        margin: auto;
+    }
+
+    .stat .top p {
+        height: auto;
+        font-size: 3.125em;
+    }
+
+    .stat .top svg {
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 0;
+        -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+                transform: translateY(-15px);
+    }
+
+    /*-- -------------------------- -->
+    <---            STATS           -->
+    /*--- ------------------------- -*/
+
+    #stats {
+        padding-bottom: 0 !important;
+    }
+
+    /*-- -------------------------- -->
+    <---           REVIEWS          -->
+    /*--- ------------------------- -*/
+
+    .review-text {
+        width: 500px;
+    }
+
+}
+
+
+/* Desktop */
+@media screen and  (min-width: 1026px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 500px;
+        background: url("/images/image-23.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 3.75em;
+        text-align: center;
+    }
+
+    /*-- -------------------------- -->
+    <---            CARDS           -->
+    /*--- -------------------------- -*/
+
+    .card-container {
+        margin-top: 150px;
+        max-width: 1250px;
+    }
+
+    .card {
+        margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        max-width: 390px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card:before {
+        position: absolute;
+        content: '';
+        width: 100px;
+        height: 100px;
+        background: #999;
+        opacity: .1;
+        border-radius: 50%;
+        left: -17px;
+    }
+
+    #svg1, #svg2, #svg3 {
+        margin-top: 0 !important;
+        margin-right: 20px;
+        height: 130px !important;
+        -webkit-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+                transform: translateY(-20px);
+    }
+
+    .card:first-child {
+        margin: 0;
+    }
+
+    .card h2 {
+        text-align: left;
+    }
+
+    .card p {
+        text-align: left;
+    }
+
+    .card button {
+        margin-left: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---        ABOUT CONTENT       -->
+    /*--- -------------------------- -*/
+
+    .about-content-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 1250px;
+    }
+
+    .about-content-container img {
+        width: 500px;
+        margin-right: 70px;
+        -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+        box-shadow: 0 0 40px rgba(0,0,0,.1);
+    }
+
+    /*-- -------------------------- -->
+    <---         ABOUT STRIP        -->
+    /*--- -------------------------- -*/
+
+    #about-strip {
+        padding: 50px 0 !important;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        background-attachment: fixed;
+    }
+
+    .about-strip-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .strip-content {
+        height: auto;
+    }
+
+    .strip-content h2 {
+        width: 600px;
+        text-align: left;
+        font-size: 2.5em;
+    }
+
+    .strip-content button {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    #about-strip svg {
+        width: 800px;
+        height: auto !important;
+        right: 100px;
+        bottom: 0;
+    }
+
+    /*-- -------------------------- -->
+    <---            STATS           -->
+    /*--- -------------------------- -*/
+
+    .stats-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .stat {
+        width: auto;
+    }
+
+    .stat .top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .stat .last-top {
+        width: 140px !important;
+        margin: auto;
+    }
+
+    .stat .top p {
+        height: auto;
+        font-size: 3.125em;
+    }
+
+    .stat .top svg {
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 0;
+        -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+                transform: translateY(-15px);
+    }
+
+    /*-- -------------------------- -->
+    <---        MORE REVIEWS         -->
+    /*--- -------------------------- -*/
+
+    #more-reviews .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        max-width: 1250px;
+        margin-bottom: 80px;
+    }
+
+    .reviews-group {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .review-text {
+        width: 450px;
+    }
+    .review {
+        width: 700px;
+    }
+
+}

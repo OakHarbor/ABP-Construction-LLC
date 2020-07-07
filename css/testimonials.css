@@ -1,0 +1,281 @@
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+
+#hero {
+    height: 180px;
+    min-height: 180px !important;
+    background: url("/images/services-mobile.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dark {
+    z-index: 0;
+}
+
+.about-box {
+    background: #fff;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+    width: auto;
+    -webkit-transform: translateY(90px);
+        -ms-transform: translateY(90px);
+            transform: translateY(90px);
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    
+}
+
+.about-box h1 {
+    color: #404040;
+    position: relative;
+    z-index: 10000;
+    font-size: 2.250em;
+    font-weight: 500;
+    padding: 20px 30px;
+    width: auto;
+    text-align: center;
+}
+
+/*-- -------------------------- -->
+<---           REVIEWS          -->
+<--- -------------------------- -*/
+
+#trust-us {
+    background:url("../images/ABP-Construction-llc-euless-tx-eric-chatelain-roofing-construction-image-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.review-group {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    border: none;
+}
+
+.review-group h3:first-child {
+    position: relative;
+    z-index: 10;
+    color: #121212;
+    text-align: center;
+    font-size: 1.750em;
+    font-weight: 800;
+    margin-bottom: 00px;
+    margin-top: 70px;
+}
+
+.review-h3 {
+    color: #121212;
+    position: relative;
+    padding-left: 36px;
+    padding-right: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.review-h3:before {
+    content: '';
+    position: absolute;
+    background: transparent;
+    height: 190px;
+    width: 180px;
+    border: 10px solid rgba(255, 255, 255, .3);
+    top: -50px;
+}
+
+.review-p {
+    position: relative;
+    z-index: 10;
+    color: #121212;
+    font-size: 1.250em;
+    text-align: center;
+    margin-bottom: 120px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.review {
+    position: relative;
+    z-index: 10;
+    margin: 70px auto;
+}
+
+.review:last-child {
+    margin-bottom: 0px;
+}
+
+.review p,
+.review h3 {
+    color: #121212;
+}
+
+.review h3 {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.review-content {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.stars {
+    margin: 20px 0 10px 0;
+}
+
+.stars svg {
+    width: 10px;
+    height: auto;
+}
+
+.review p:nth-child(2) {
+    font-size: 0.938em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review p:nth-child(3) {
+    font-size: 0.875em !important;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#trust-us:before {
+    content: '';
+    height: 100.09%;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    bottom: -10px;
+    position: absolute;
+    background: #fff;
+}
+
+/* Tablets */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 200px;
+    }
+
+    .about-box {
+        width: 600px;
+        height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: translateY(140px);
+            -ms-transform: translateY(140px);
+                transform: translateY(140px);
+    }
+
+    .about-box h1 {
+        font-size:3.125em;
+    }
+
+    /*-- -------------------------- -->
+    <---         TESTIMONIALS       -->
+    <--- -------------------------- -*/
+
+    #trust-us {
+        padding-top: 100px;
+    }
+
+    .review-group {
+        padding-bottom: 100px;
+    }
+
+    .review-h3:before {
+        height: 190px;
+    }
+
+    .review-p {
+        width: 290px;
+        margin: auto;
+        margin-bottom: 130px;
+        font-size: 1em;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 500px;
+        background: url("/images/../images/ABP-Construction-llc-euless-tx-eric-chatelain-roofing-construction-image-12.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 3.75em;
+        text-align: center;
+    }
+
+    /*-- -------------------------- -->
+    <---        TESTIMONIALS        -->
+    <--- -------------------------- -*/
+
+    #trust-us {
+        background-attachment: fixed;
+        padding-top: 100px;
+    }
+
+    .review-group {
+        width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+}
+

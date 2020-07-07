@@ -1,0 +1,210 @@
+/*-- -------------------------- -->
+<---          LANDING           -->
+<--- -------------------------- -*/
+
+#hero {
+    height: 120px;
+    background: url("/images/services-mobile.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dark {
+    z-index: 0;
+}
+
+.about-box {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+            transform: translateY(60px);
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    
+}
+
+.about-box h1 {
+    color: #404040;
+    position: relative;
+    z-index: 10000;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/*-- -------------------------- -->
+<---          CONTENT           -->
+<--- -------------------------- -*/
+
+#content {
+    margin-top: 50px;
+}
+
+#content h2 {
+    margin-bottom: 25px;
+    font-size: 2.5em;
+}
+
+.content-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--primary);
+    padding-left: 20px;
+}
+
+ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 35px;
+}
+
+.content-container p span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.content-container a {
+    color: var(--primary);
+}
+
+#content img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Tablets */
+@media screen and (min-width: 750px) and (max-width: 1025px) {
+
+    .mobile-nav {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 730px;
+    }
+
+    .mobile-menu {
+        max-width: 100% !important;
+    }
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 200px;
+    }
+
+    .about-box {
+        width: 600px;
+        height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: translateY(140px);
+            -ms-transform: translateY(140px);
+                transform: translateY(140px);
+    }
+
+    .heroText h2 {
+        color: #fff;
+        font-size: 1em;
+        text-align: center;
+        padding: 30px 0;
+        width: 540px;
+        position: relative;
+        font-weight: normal;
+        margin: auto;
+    }
+
+    .about-box h1 {
+        font-size: 3.125em;
+    }
+
+    #content {
+        margin-top: 200px;
+    }
+
+}
+
+/* Desktop */
+@media screen and  (min-width: 1026px) {
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 500px;
+        background: url("/images/image-19.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 3.75em;
+        text-align: center;
+    }
+
+    #content {
+        margin-top: 200px;
+    }
+
+    #content .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .content-container {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+
+    #content img {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        width: 600px;
+        height: 398px;
+    }
+
+}
