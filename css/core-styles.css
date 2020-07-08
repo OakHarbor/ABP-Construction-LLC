@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
-    border: 1px solid var(--primary);
+    border: 1px solid transparent;
 }
 
 .button-solid:hover {
