@@ -270,6 +270,12 @@ form p{
     <---            FORM            -->
     <--- -------------------------- -*/
 
+    .image-box {
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
     #valley-form {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -347,10 +353,18 @@ form p{
     <---            FORM            -->
     <--- -------------------------- -*/
 
-    .contact-image {
+    .image-box {
         align-self: flex-start;
         margin-top: 50px;
         margin-right: 50px;
+    }
+
+    .image-box h2 {
+        font-size: 1em;
+    }
+
+    .image-box p {
+        font-size: .8em !important;
     }
 
     #valley-form {
