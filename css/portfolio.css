@@ -498,7 +498,7 @@ html.clicked {
 
     .modal img {
         display: block;
-        height: 600px;
+        height: 600px !important;
         width: auto;
         height: auto;
         margin: auto !important;
