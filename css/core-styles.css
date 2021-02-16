@@ -766,7 +766,8 @@ h1, h2, h3, h4, h5, h6 {
 
 	.navbar-menu {
         overflow: visible;
-		width: 1100px;
+        width: 100%;
+        max-width: 1100px;
 		min-height: 100px;
 		height: 130px;
 		margin: auto;
@@ -842,7 +843,7 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
-		font-size: 1em;
+		font-size: 14px;
 	}
 
 	.side-nav ul li a:hover {
@@ -941,7 +942,8 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        width: 1100px;
+        width: 100%;
+        max-width: 1100px;
         margin: auto;
     }
 

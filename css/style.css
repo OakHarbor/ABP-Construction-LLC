@@ -431,6 +431,58 @@
 }
 
 /*-- -------------------------- -->
+<---            Solar           -->
+<--- -------------------------- -*/
+
+#solar h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading-2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#solar .solar-icons {
+    display: block;
+}
+
+#solar .icon-item {
+    margin-bottom: 80px;
+    max-width: 350px;
+}
+
+#solar .icon-item span {
+    display: block;
+    font-size: 25px !important;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+#solar .icon-item img {
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#solar .icon-item h3 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.solar-button {
+    display: block;
+    margin: auto;
+}
+
+/*-- -------------------------- -->
 <---            VIDEO           -->
 <--- -------------------------- -*/
 
@@ -853,6 +905,11 @@ video {
 }
 
 /* Tablets */
+@media screen and (min-width: 681px) {
+
+}
+
+/* Tablets */
 @media screen and (min-width: 681px) and (max-width: 899px) {
 
     .container {
@@ -933,6 +990,7 @@ video {
 
     .left img {
         width: 200px;
+        height: 200px;
     }
 
     .left img:nth-child(2) {
@@ -1076,8 +1134,38 @@ video {
     .review-topper p {
         font-size: 1.25em;
     }
+}
+
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+
+    #solar .container {
+        padding: 0;
+        max-width: 750px;
+    }
+
+    #solar h2 {
+        font-size: 37px;
+    }
+
+    .heading-2 {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    #solar .container {
+        text-align: center;
+    }
+
+    #solar .icon-item {
+        display: inline-block;
+        width: 33%;
+    }
 
 }
+
 /* Ipad Pro */
 @media screen and (min-width: 900px) and (max-width: 1025px) {
 
@@ -1686,6 +1774,26 @@ video {
         margin-bottom: 28px;
         margin-right: 30px;
         width: 230px;
+    }
+
+    /*-- -------------------------- -->
+    <---            Solar           -->
+    <--- -------------------------- -*/
+
+    #solar .container {
+        max-width: 1000px;
+    }
+
+    #solar h2 {
+        font-size: 42px;
+    }
+
+    #solar .icon-item {
+        max-width: 250px;
+    }
+
+    #solar .icon-item:nth-of-type(2) {
+        margin: 0 40px;
     }
 
     /*-- -------------------------- -->

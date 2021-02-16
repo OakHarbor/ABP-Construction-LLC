@@ -1,0 +1,99 @@
+#hero {
+    background: url("/images/ABP-Construction-llc-euless-tx-eric-chatelain-roofing-construction-solar-roof3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#solar-roof {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#solar-roof h2 {
+    font-size:32px;
+    margin-bottom: 30px;
+}
+
+#solar-roof p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#solar-roof a {
+    color: var(--primary);
+}
+
+#solar-roof h3 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-left: 4px solid var(--primary);
+    padding-left: 15px;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-group img {
+    width: 50%;
+    padding: 10px;
+}
+
+.image-background {
+    background: url("/images/ABP-Construction-llc-euless-tx-eric-chatelain-roofing-construction-solar-roof5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #solar-roof {
+        padding-top: 200px;
+    }
+
+    #solar-roof .container {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #solar-roof h2 {
+        font-size:42px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+
+    #solar-roof {
+        padding-bottom: 100px;
+    }
+
+    #solar-roof .container {
+        max-width: 700px;
+        margin: auto;
+        padding: 0;
+    }
+
+    #solar-roof h3 {
+        font-size:34px;
+        margin-bottom: 30px;
+    }
+
+    .image-group img {
+        width: 25%;
+    }
+
+    .image-background {
+        height: 300px;
+    }
+
+}
