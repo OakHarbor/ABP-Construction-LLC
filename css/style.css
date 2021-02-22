@@ -487,6 +487,16 @@
     margin: auto;
 }
 
+.bbb {
+    width: 250px;
+    display: block;
+    margin: 70px auto 0px;
+}
+
+.bbb img {
+    width: 100%;
+}
+
 /*-- -------------------------- -->
 <---            VIDEO           -->
 <--- -------------------------- -*/
