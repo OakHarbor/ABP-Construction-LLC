@@ -450,6 +450,7 @@
 }
 
 #solar .icon-item {
+    margin: auto;
     margin-bottom: 80px;
     max-width: 350px;
 }
@@ -475,6 +476,10 @@
     margin: auto;
     margin-bottom: 20px;
     font-size: 25px;
+}
+
+#solar .icon-item p {
+    text-align: center;
 }
 
 .solar-button {
