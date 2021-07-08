@@ -1611,9 +1611,9 @@ video {
     }
 
     #hero button {
-        -webkit-transform: scale(1.15);
-            -ms-transform: scale(1.15);
-                transform: scale(1.15);
+        -webkit-transform: scale(1.25);
+            -ms-transform: scale(1.25);
+                transform: scale(1.25);
     }
 
     /*-- -------------------------- -->
