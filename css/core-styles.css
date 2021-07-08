@@ -669,6 +669,11 @@ h1, h2, h3, h4, h5, h6 {
 
     .top-nav-strip span:first-child {
         padding-left: 0;
+        font-size: 30px;
+    }
+
+    .top-nav-strip .phone-number {
+        font-size: 20px !important;
     }
 
     .top-nav-strip span:last-child {
@@ -748,6 +753,7 @@ h1, h2, h3, h4, h5, h6 {
 		left: 2em;
         width: auto;
         height: 120px;
+        top: 30px;
 	}
 
 	/*navbar */
