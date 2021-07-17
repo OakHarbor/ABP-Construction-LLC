@@ -533,17 +533,21 @@
     }
 
     #services .container{
-        width: 1200px;
+        width: 100%;
         max-width: 1200px !important;
     }
 
     .service {
-        width: 360px;
+        width: 30%;
         margin: 25px 0;
     }
 
     .service:last-child {
         margin-bottom: 25px;
+    }
+
+    .services {
+        width: 100%;
     }
 
     /*-- -------------------------- -->
