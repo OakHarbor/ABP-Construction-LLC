@@ -353,6 +353,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: right;
     list-style: none;
     margin-top: 70px;
+    visibility: hidden;
+    transition: .3s ease;
+}
+
+.side-nav ul.clicked {
+    visibility: visible;
+    transition: .5s ease;
 }
 
 .side-nav ul li {

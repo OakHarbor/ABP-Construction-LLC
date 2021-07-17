@@ -8,7 +8,6 @@ let toggleNavStatus = false;
 
 let toggleNav = function () {
     const htmlGrab = document.querySelector("html"); 
-    const $navbarMenu = $(".navbar-menu");
     const getSidebar = document.querySelector(".navbar-menu");
     const getSidebarUL = document.querySelector(".side-nav ul");
     const getSidebarLinks = document.querySelectorAll(".side-nav a");
@@ -29,8 +28,8 @@ let toggleNav = function () {
         });
       getSidebar.style.width = "60%";
       getSidebar.style.overflow = "visible";
+      getSidebarUL.classList.add("clicked");
       htmlGrab.classList.add("clicked");
-      $navbarMenu.addClass("clicked")
       toggleNavStatus = true;
     } 
 
@@ -43,7 +42,7 @@ let toggleNav = function () {
          });
         getSidebar.style.overflow = "visible";
         getSidebar.style.width = "0";
-        $navbarMenu.removeClass("clicked")
+        getSidebarUL.classList.remove("clicked");
         htmlGrab.classList.remove("clicked");
         toggleNavStatus = false;
     }
